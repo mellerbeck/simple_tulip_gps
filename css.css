@@ -1,0 +1,33 @@
+.gps-widget {
+  font-size: 22px;
+  line-height: 1.6;
+  font-family: system-ui, Arial, sans-serif;
+}
+.gps-row {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+.gps-label {
+  font-weight: 600;
+  color: #444;
+}
+.gps-values {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.gps-btn {
+  margin-top: 8px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #f7f7f7;
+  cursor: pointer;
+}
+.gps-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.gps-status {
+  margin-top: 6px;
+  color: #666;
+}
